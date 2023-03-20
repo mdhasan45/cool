@@ -1,0 +1,14 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import './navbar/nav';
+@import './footer/footer';
+@import './hero-section/hero';
+@import './feature-section/feature';
+
+
+body{
+    background-color: #ffffff;
+}
+
+.extra-margin{
+    margin-top: 80px;
+}
