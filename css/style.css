@@ -10821,6 +10821,80 @@ footer a {
   margin-bottom: 25px;
 }
 
+.image-gallery {
+  background-color: black;
+  padding: 40px;
+}
+.image-gallery h2, .image-gallery .h2, .image-gallery p {
+  color: #ddd;
+}
+.image-gallery .image-gallery-items {
+  row-gap: 25px;
+}
+
+.pricing-section {
+  padding: 80px 0;
+}
+.pricing-section .price-card {
+  background-color: #f5f5f5;
+  padding-bottom: 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-section .virtual-gap {
+  flex: 1;
+}
+.pricing-section .price-header {
+  padding: 5rem 3rem;
+  color: #fff;
+}
+.pricing-section .personal {
+  background-color: #4e74fe;
+}
+.pricing-section .professional {
+  background-color: #3cbffa;
+}
+.pricing-section .business {
+  background-color: #1f2946;
+}
+.pricing-section .price-body {
+  margin: 3rem 2rem;
+  margin-bottom: 0;
+}
+.pricing-section .feature li {
+  position: relative;
+  margin-bottom: 30px;
+}
+.pricing-section .feature li:before {
+  background-image: url("/img/chevron-double-right.svg");
+  position: absolute;
+  font-size: 1.5rem;
+  left: -30px;
+  top: -5px;
+}
+.pricing-section .price-fotter {
+  margin: 0 2rem;
+  margin-bottom: 0;
+}
+.pricing-section button {
+  margin-left: 45px;
+  padding: 0.5rem;
+  background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
+  border: none;
+  outline: none;
+}
+
+.about-section img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.about-section button {
+  background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
+}
+
 body {
   background-color: #ffffff;
 }
